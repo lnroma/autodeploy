@@ -1,0 +1,10 @@
+<?php
+return array(
+    'pathToProject' => '/var/www/yourproject/', // path to project directory
+    'branch' => 'master', // branch for pull
+    'delay' => 1, // delay in seconds for pull
+    'autoReset' => true,
+    'serverList' => '127.0.0.1:8080', // server listener
+    'pathToPhp' => '/usr/bin/php', // interpritator php
+    'serverFile' => 'server.php'
+);
